@@ -33,7 +33,7 @@ const shadowHeader = () =>{
 window.addEventListener('scroll',shadowHeader)
 
 /*=============== EMAIL JS ===============*/
-const contactForm = document.getElementById('contact-form')
+/*const contactForm = document.getElementById('contact-form')
         contactForm = document.getElementById('contact-message')
 
 const sendEmail = (e) =>{
@@ -54,9 +54,9 @@ const sendEmail = (e) =>{
         contactMessage.textContact = 'Message not sent (serivce error) :('
     })
 }
-contactForm.addEventListener('submit', sendEmail)
+contactForm.addEventListener('submit', sendEmail)*/
 
-/*=============== SHOW SCROLL UP ===============*/ 
+
 const scrollUp = () =>{
     const scrollUp = document.getElementById('scroll-up')
     this.scrollY >= 350 ? scrollUp.classList.add('show-scroll')
@@ -64,13 +64,9 @@ const scrollUp = () =>{
 }
 window.addEventListener('scroll', scrollUp)
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 
 
-/*=============== DARK LIGHT THEME ===============*/ 
 
-
-/*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin:'top',
     distance:'60px',
