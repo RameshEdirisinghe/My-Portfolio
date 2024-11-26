@@ -1,12 +1,11 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap");
 
-/*=============== VARIABLES CSS ===============*/
+
 :root {
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(14, 98%, 50%);
   --second-color:hsl(195, 53%, 79%);
   --black-color: hsl(0, 0%, 0%);
@@ -19,7 +18,7 @@
   --container-color: hsl(0, 0%, 83%);
 
   /*========== Font and typography ==========*/
-  /*.5rem = 8px | 1rem = 16px ...*/
+
   --body-font: "Bai Jamjuree", sans-serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.75rem;
@@ -89,17 +88,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-/*=============== THEME ===============*/
-
-
-/*========== Variables Dark theme ==========*/
-
-
-/*========== 
-	Color changes in some parts of 
-	the website, in dark theme
-==========*/
 
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -217,8 +205,6 @@ img {
 }
 
 
-
-/* Navigation for mobile devices */
 @media screen and (max-width: 1150px) {
     .nav__menu{
         position: fixed;
@@ -314,7 +300,7 @@ img {
   box-shadow: 0 1px 16px hsla(0, 0%, 0%, .12);
 }
 
-/* Active link */
+
 
 
 /*=============== HOME ===============*/
@@ -894,7 +880,6 @@ img {
 }
 
 /*=============== BREAKPOINTS ===============*/
-/* For small devices */
 @media screen and (max-width: 340px){
   .container {
     margin-inline: 1rem;
@@ -910,7 +895,6 @@ img {
   }
 }
 
-/* For medium devices */
 @media  screen and (min-width: 576px){
   .home__container,
   .about__container,
@@ -950,7 +934,7 @@ img {
   }
 }
 
-/* For large devices */
+
 @media screen and (min-width: 1150px) {
   .container{
     margin-inline:auto ;
